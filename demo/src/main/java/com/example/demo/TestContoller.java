@@ -11,4 +11,8 @@ public class TestContoller {
         return "哈喽希希";
     }
 
+    @RequestMapping("/lili")
+    public String lili(){
+        return "晚上加班到几点";
+    }
 }
