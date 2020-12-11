@@ -15,6 +15,6 @@ public class TestContoller {
 
     @RequestMapping("/lili")
     public String lili(){
-        return "晚上加班到几点";
+        return "test2.html";
     }
 }
