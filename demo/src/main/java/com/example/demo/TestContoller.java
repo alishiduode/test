@@ -1,14 +1,16 @@
 package com.example.demo;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class TestContoller {
 
     @RequestMapping("/xixi")
-    public String xixi(){
-        return "哈喽希希";
+    public String xixi(Model model){
+        return "test.html";
     }
 
     @RequestMapping("/lili")
