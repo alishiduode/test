@@ -3,7 +3,10 @@ package com.example.demo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+
+import java.awt.*;
+import java.awt.event.InputEvent;
+import java.util.Random;
 
 @Controller
 public class TestContoller {
@@ -17,4 +20,5 @@ public class TestContoller {
     public String lili(){
         return "test2.html";
     }
+
 }
