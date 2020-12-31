@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 import java.awt.*;
 import java.awt.event.InputEvent;
 
-@Component
 public class MouseRobit {
 
      int i = 1;
